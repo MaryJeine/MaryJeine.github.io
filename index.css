@@ -1,0 +1,91 @@
+body {
+    width: 99vw;
+    height: auto;
+    overflow-y: scroll;
+    font-size: 100%;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+}
+
+section {
+    width: 99vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar {
+    display: flex;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Navnarlist {
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+b {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Navbaritem {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_1 {
+    width: 70%;
+    height: auto;
+    margin-left: 80px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+.texto-rodape {
+    width: 100%;
+    height:100px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'righteous';
+    font-size: 64px;
+    background-color: rgb(255, 255, 255);
+    line-height: 2;
+    
+}
+
+.rodape{
+    width: 100%;
+    height:100px ;
+    bottom: 0;
+    position: absolute;
+}
+
+
+    

@@ -1,0 +1,86 @@
+body {
+    width: 99vw;
+    height: auto;
+    overflow-y: scroll;
+    font-size: 100%;
+    background-color: rgb(21, 179, 190);
+    background-size: cover;
+}
+
+section {
+    width: 99vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navbar {
+    display: flex;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navbaritem {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_1 {
+    width: 70%;
+    height: auto;
+    margin-right: 150px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.Navbar_2 {
+    width: 140%;
+    font-size: 30px;
+}
+
+.Fotos-hotel {
+    height: auto;
+    display: flex;
+    align-items: right;
+    display: inline;
+    width: 30%;
+    float: right;
+
+}
+.rodape{
+    width: 100%;
+    height:100px ;
+    bottom: 0;
+    position: absolute;
+}
+
+.texto-rodape {
+    width: 100%;
+    height:100px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'righteous';
+    font-size: 64px;
+    background-color: rgb(255, 255, 255);
+    line-height: 2;
+    
+}

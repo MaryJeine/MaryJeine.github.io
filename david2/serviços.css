@@ -1,0 +1,482 @@
+
+#Navbar {
+    display: flex;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar_1 {
+    width: 70%;
+    height: auto;
+    margin-right: 150px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.Navbar_2 {
+    width: 140%;
+    font-size: 30px;
+}
+
+.rodape {
+    width: 100%;
+    height: 20vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-icon {
+    display: flex;
+    padding: 5px;
+}
+
+.container-icon p {
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.sociais {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+e2_16 { 
+	overflow:hidden;
+}
+.e2_16 { 
+	width:765.6068725585938px;
+	height:106.44901275634766px;
+	position:absolute;
+}
+.e2_12 { 
+	background-color:rgba(54.85156148672104, 192.8358069062233, 223.125, 1);
+	width:743.0499877929688px;
+	height:83.72394561767578px;
+	position:absolute;
+	left:22.556884765625px;
+	top:22.72509765625px;
+}
+.e2_14 { 
+	color:rgba(0, 0, 0, 1);
+	width:743.0499877929688px;
+	height:64.58704376220703px;
+	position:absolute;
+	left:600px;
+	top:50px;
+	font-family:K2D;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+
+.e3_23 { 
+	overflow:hidden;
+}
+.e3_23 { 
+	width:1894.77734375px;
+	height:991.531005859375px;
+	position:absolute;
+	top: 200px;
+	-ms-transform: scale(0.8, 0.8); 
+        -webkit-transform: scale(0.8, 0.8); 
+        transform: scale(0.8, 0.8);
+}
+.e4_26 { 
+	width:1884.1624755859375px;
+	height:268.0563049316406px;
+	position:absolute;
+	left:0px;
+	top:723.474609375px;
+}
+.e4_38 { 
+	width:337.0262451171875px;
+	height:250.58901977539062px;
+	position:absolute;
+	left:1547.13623046875px;
+	top:13.87890625px;
+}
+.e3_19 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:208.72705078125px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e3_6 { 
+	width:196.46058654785156px;
+	height:211.6625518798828px;
+	position:absolute;
+	left:70.731201171875px;
+	top:0px;
+	background-image:url(pet.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_37 { 
+	width:337.0262451171875px;
+	height:251.78482055664062px;
+	position:absolute;
+	left:1032.3087158203125px;
+	top:13.87890625px;
+}
+.e3_20 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:209.9228515625px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e3_5 { 
+	width:196.46058654785156px;
+	height:211.6625518798828px;
+	position:absolute;
+	left:70.2520751953125px;
+	top:0px;
+	background-image:url(medico.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_36 { 
+	width:337.0262451171875px;
+	height:268.0563049316406px;
+	position:absolute;
+	left:500.2319030761719px;
+	top:0px;
+}
+.e3_21 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:226.1943359375px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e3_4 { 
+	width:194.85025024414062px;
+	height:209.92759704589844px;
+	position:absolute;
+	left:70.91921997070312px;
+	top:0px;
+	background-image:url(onibus.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_35 { 
+	width:337.0262451171875px;
+	height:266.8600158691406px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e3_22 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:224.998046875px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e3_2 { 
+	width:196.46058654785156px;
+	height:211.6625518798828px;
+	position:absolute;
+	left:84.83062744140625px;
+	top:0px;
+	background-image:url(cadeira-de-rodas.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_25 { 
+	width:1880.1817626953125px;
+	height:252.47232055664062px;
+	position:absolute;
+	left:14.59564208984375px;
+	top:353.92822265625px;
+}
+.e4_34 { 
+	width:337.0262451171875px;
+	height:248.77944946289062px;
+	position:absolute;
+	left:1543.155517578125px;
+	top:0.1044921875px;
+}
+.e3_13 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:206.91748046875px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_22 { 
+	width:195.05062866210938px;
+	height:178.61106872558594px;
+	position:absolute;
+	left:59.70947265625px;
+	top:0px;
+	background-image:url(sauna.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_33 { 
+	width:337.0262451171875px;
+	height:252.36782836914062px;
+	position:absolute;
+	left:1008.4249877929688px;
+	top:0.1044921875px;
+}
+.e3_14 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:210.505859375px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_21 { 
+	width:195.05062866210938px;
+	height:179.6013641357422px;
+	position:absolute;
+	left:70.32440185546875px;
+	top:0px;
+	background-image:url(jogos.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_32 { 
+	width:337.0262451171875px;
+	height:246.38784790039062px;
+	position:absolute;
+	left:493.59747314453125px;
+	top:3.6923828125px;
+}
+.e3_15 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:204.52587890625px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_20 { 
+	width:195.05062866210938px;
+	height:168.17591857910156px;
+	position:absolute;
+	left:71.65130615234375px;
+	top:0px;
+	background-image:url(estacionamento.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_31 { 
+	width:337.0262451171875px;
+	height:251.27603149414062px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e3_16 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:209.4140625px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_17 { 
+	width:194.85025024414062px;
+	height:209.92759704589844px;
+	position:absolute;
+	left:70.3243408203125px;
+	top:0px;
+	background-image:url(piscina.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e2_19 { 
+	width:1881.5086669921875px;
+	height:241.60317993164062px;
+	position:absolute;
+	left:13.26873779296875px;
+	top:0px;
+}
+.e4_30 { 
+	width:337.0262451171875px;
+	height:240.21011352539062px;
+	position:absolute;
+	left:1544.482421875px;
+	top:1.39306640625px;
+}
+.e3_17 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:198.34814453125px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_10 { 
+	width:216.04806518554688px;
+	height:196.39019775390625px;
+	position:absolute;
+	left:59.9420166015625px;
+	top:0px;
+	background-image:url(academia.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_29 { 
+	width:337.0262451171875px;
+	height:241.60317993164062px;
+	position:absolute;
+	left:1019.0399780273438px;
+	top:0px;
+}
+.e3_18 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:199.7412109375px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_9 { 
+	width:195.4564971923828px;
+	height:196.30703735351562px;
+	position:absolute;
+	left:71.04229736328125px;
+	top:0px;
+	background-image:url(serv-de-quarto.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e4_28 { 
+	width:337.0262451171875px;
+	height:230.41665649414062px;
+	position:absolute;
+	left:490.9437561035156px;
+	top:1.6181640625px;
+}
+.e3_12 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:188.5546875px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_4 { 
+	width:204.0291290283203px;
+	height:187.98812866210938px;
+	position:absolute;
+	left:67.00265502929688px;
+	top:0px;
+	background-image:url(restaurante.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e3_11 { 
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:1.326904296875px;
+	top:190.1728515625px;
+}
+.e3_9 { 
+	background-color:rgba(54.85156148672104, 192.8358069062233, 223.125, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e4_27 { 
+	width:337.0262451171875px;
+	height:204.52554321289062px;
+	position:absolute;
+	left:0px;
+	top:15.548828125px;
+}
+.e3_10 { 
+	color:rgba(0, 0, 0, 1);
+	width:337.0262451171875px;
+	height:41.86197280883789px;
+	position:absolute;
+	left:0px;
+	top:162.66357421875px;
+	font-family:Abel;
+	text-align:center;
+	font-size:35px;
+	letter-spacing:0;
+}
+.e2_3 { 
+	width:195.05062866210938px;
+	height:161.00396728515625px;
+	position:absolute;
+	left:71.6512451171875px;
+	top:0px;
+	background-image:url(cafe-da-manha.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.e2_2 { 
+	background-color:rgba(54.85156148672104, 192.8358069062233, 223.125, 1);
+	width:1830px;
+	height: 1080px;;
+}

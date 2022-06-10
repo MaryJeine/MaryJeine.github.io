@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 99vw;
     height: auto;
     overflow-y: scroll;
     font-size: 100%;
-    background-color: rgb(21, 179, 190);
+    background-image: url(fundo.jpg);
     background-size: cover;
 }
 
@@ -13,6 +18,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.corpo {
+    width: 100%;
+    height: 80vh;
 }
 
 #Navbar {
@@ -25,14 +35,33 @@ section {
     align-items: center;
 }
 
+#Navbarlist {
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    align-items: center;
+    letter-spacing: 4px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+b {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Navbaritem {
     font-family: 'Sarala', sans-serif;
     display: flex;
     color: white;
     font-weight: 500;
-    font-size: 25px;
-    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
     display: inline;
+
 }
 
 nav {
@@ -45,42 +74,34 @@ nav {
 .Navbar_1 {
     width: 70%;
     height: auto;
-    margin-right: 150px;
+    margin-left: 80px;
     letter-spacing: 4px;
     word-spacing: 20px;
 }
 
-.Navbar_2 {
-    width: 140%;
-    font-size: 30px;
-}
-
-.Fotos-hotel {
-    height: auto;
+.rodape {
+    width: 100%;
+    height: 20vh;
+    background-color: aliceblue;
     display: flex;
-    align-items: right;
-    display: inline;
-    width: 30%;
-    float: right;
-
-}
-.rodape{
-    width: 100%;
-    height:100px ;
-    bottom: 0;
-    position: absolute;
-}
-
-.texto-rodape {
-    width: 100%;
-    height:100px ;
     align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-icon {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-    font-family: 'righteous';
-    font-size: 64px;
-    background-color: rgb(255, 255, 255);
-    line-height: 2;
-    
+    padding: 5px;
+}
+
+.container-icon p {
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.sociais {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
 }
